@@ -1,0 +1,116 @@
+body {
+    background-image: url(/asset/img//w11898-small.jpg);
+    background-position: center;
+    color: white;
+    font-family: "Momo Trust Display";
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px 5px 5px black;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+    margin: 2% 30%;
+}
+
+header div {
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+    margin: 2% 30%;
+    text-shadow: 1px 5px 5px black;
+
+}
+
+#quizz {
+    color: white;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+    margin: 2% 30%;
+}
+
+#question {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 30%;
+    text-shadow: 1px 5px 5px black;
+}
+
+#question button {
+    color: white;
+    text-shadow: 1px 5px 5px black;
+    font-family: "Momo Trust Display";
+}
+
+#start {
+    display: block;
+    margin: 2% 30%;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0)
+}
+
+#restart {
+    display: none;
+    margin: 2% 30%;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0)
+}
+
+.answers {
+    margin: 0% 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.answers button {
+    color: white;
+    margin: 5% 5%;
+    background-color: transparent;
+    backdrop-filter: blur(200px);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+    font-size: larger;
+    text-transform: uppercase;
+    font-family: "Momo Trust Display";
+    text-shadow: 1px 5px 5px black;
+}
+
+#scorefinal {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-shadow: 3px 5px 5px black;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-image: url(/asset/img/Utilise\ un\ pc.png);
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        display: none;
+    }
+}
