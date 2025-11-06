@@ -1,6 +1,9 @@
 body {
     background-image: url(/asset/img//w11898-small.jpg);
     background-position: center;
+    background-size: cover;
+    background-position: top,center;
+    background-repeat: no-repeat;
     color: white;
     font-family: "Momo Trust Display";
 }
